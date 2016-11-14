@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nodejs-mss-20161115
+  host: nodejs-mss-20161115
+  disk_quota: 1024M
+  services:
+  - nodejs-mss-20161115-cloudantNoSQLDB
